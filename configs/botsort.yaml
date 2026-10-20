@@ -1,0 +1,15 @@
+# BoT-SORT Configuration for Smart Traffic Vehicle Counter
+# Author: Darshan S.
+
+tracker_type: botsort
+track_high_thresh: 0.25      # Threshold for the first association round
+track_low_thresh: 0.1        # Threshold for the second association round
+new_track_thresh: 0.25       # Threshold to initialize a new track
+track_buffer: 30             # Frames to keep track without detections
+match_thresh: 0.8            # Matching threshold
+fuse_score: true             # Fuse detection confidence with IoU distance
+gmc_method: sparseOptFlow    # Global Motion Compensation: 'sparseOptFlow', 'orb', 'none'
+proximity_thresh: 0.5        # Proximity threshold
+appearance_thresh: 0.8       # Appearance similarity threshold
+with_reid: false             # ReID feature extraction toggle
+model: auto                  # ReID model name/path

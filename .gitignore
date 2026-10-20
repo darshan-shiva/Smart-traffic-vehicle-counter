@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Model weights (large files)
+models/*.pt
+models/*.onnx
+models/*.engine
+*.pt
+
+# Outputs and user uploads
+outputs/*
+!outputs/.gitkeep
+
+# Datasets, data, and heavy video samples
+datasets/*
+!datasets/.gitkeep
+data/*
+!data/.gitkeep
+
+# Asset files except placeholder
+assets/*
+!assets/.gitkeep
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

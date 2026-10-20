@@ -1,0 +1,22 @@
+# Smart Traffic Vehicle Detection, Tracking & Counting System
+# Author: Darshan S.
+
+# Core Computer Vision & Deep Learning
+ultralytics>=8.3.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+lap>=0.5.12
+
+# Data Analysis & Metrics
+pandas>=2.0.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web Dashboard
+streamlit>=1.35.0
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.65.0
+pillow>=10.0.0

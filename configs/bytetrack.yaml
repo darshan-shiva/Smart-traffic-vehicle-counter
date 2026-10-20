@@ -1,0 +1,10 @@
+# ByteTrack Configuration for Smart Traffic Vehicle Counter
+# Author: Darshan S.
+
+tracker_type: bytetrack
+track_high_thresh: 0.5      # Threshold for the first association round
+track_low_thresh: 0.1       # Threshold for the second association round (low confidence recovery)
+new_track_thresh: 0.6       # Threshold to initialize a new track
+track_buffer: 30            # Frames to retain lost track history before deletion
+match_thresh: 0.8           # Matching threshold for bounding box IoU
+fuse_score: true            # Fuse confidence scores with IoU distance
